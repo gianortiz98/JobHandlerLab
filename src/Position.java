@@ -71,7 +71,7 @@ public class Position {
 			totalYearly = hSalary*40*4.5*12;
 			return totalYearly;
 			}
-		if (!jobType){
+		else{
 			totalYearly = hSalary*20*4.5*12;
 			return totalYearly;
 		}
@@ -79,8 +79,7 @@ public class Position {
 		
 			 
 		//Add Code Here [You have to use If/Else to get graded]
-		
-		return 0; //Temporal Return
+
 		
 	}
 }
